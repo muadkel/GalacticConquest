@@ -1,0 +1,16 @@
+Galactic Conquest is intended to be an open source project to build a customizable space strategy game.
+
+The developer/player could modify the XML files and images to customize and create their own game. 
+
+The current version is written in C# with the 2008 XNA studio. I custom made the controls and I apologize for their wonkiness.
+ 
+As of the last update the game is in early prototype stages but a developer should be able to take this code and run it (Use Microsoft Visual C# Studio 2008 Express Edition).
+While running the prototype game you can build facilities, ships, and troops. Space ships can also travel to other planets.
+
+Nothing is set in stone and I would love to see this continued by someone with more free time than me!
+
+All images and data in this project are used only for demonstration and can be removed and replaced with a simple request. 
+
+Feel free to contact muadkelbask@gmail.com with any questions or if you are wanting to continue this project than let me know! I would be happy to help out any way I can.
+
+-The "Mighty" Muad
