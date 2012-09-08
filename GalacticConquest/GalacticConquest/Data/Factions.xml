@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Factions>
+  <Faction ID="1" Name="GalacticEmpire" HeaderText="The Galactic Empire">
+    <FactionDescription>
+      The Galactic Empire dominates much of the known galaxy. 
+      They pride themselves with the use of loyalty to keep the local systems in line while prefering more brutal tactics towars the outer rim.
+    </FactionDescription>
+    <FactionTraits>
+      Loyalty
+      Occupation
+      Enslavers
+      Dark Side
+      Assassin
+      Planet Buster
+      Bounty Hunter
+    </FactionTraits>
+    
+    
+    <Planet>Coruscant</Planet>
+    <Planet>Corellia</Planet>
+
+    
+  </Faction>
+  <Faction ID="2" Name="RebelAlliance" HeaderText="The Rebel Alliance">
+    <FactionDescription>
+      The Rebel Alliance is the opposing force to the Empire. They have caused the Empire many defeats including the descruction of their first Death Star.
+      The Rebels will generally negotiated diplomaitically with any planet to gain its loyalty and resources.
+    </FactionDescription>
+    <Planet>Yavin</Planet>
+    <Planet>Alderaan</Planet>
+  </Faction>
+  <Faction ID="3" Name="BountyHuntersGuild" HeaderText="The Bounty Hunters Guild">
+    <FactionDescription>
+      The Bounty Hunters Guild is a refuge for any mercenaries looking to make a name for themselves..
+      The BHG holds a loose control over all the planets the claim. 
+      As many bounty hunters were former run away slaves themselves the guild chooses not to rule planets with slave force choosing to rather pay off the local government instead.
+    </FactionDescription>
+    <FactionTraits>
+      Assassin
+      Bounty Hunters
+      Planet Prospectors
+    </FactionTraits>
+    <Planet>Hoth</Planet>
+    <Planet>Keb</Planet>
+  </Faction>
+  <Faction ID="4" Name="HuttCartel" HeaderText="The Hutt Cartel">
+    <FactionDescription>
+      The Hutt Cartel is full of vile scum an villiany.
+      The lowest of the low join up with the Hutts. Most planets they own are slave camps or para-military outposts.
+    </FactionDescription>
+    <FactionTraits>
+      Enslavers
+      Assassin
+      Bounty Hunters
+      Planet Prospectors
+    </FactionTraits>
+    
+    <Planet>Hutt</Planet>
+    <Planet>Tattoine</Planet>
+  </Faction>
+</Factions>

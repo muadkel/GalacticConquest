@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Ships>
+  <Ship ID="1" Name="XWingT65" HeaderText="X-Wing T-65" Type="Starfighter"  FactionID="2">
+    <Description>X-Wing Desc</Description>
+    <Weapons>
+      <Weapon Name="Proton-Torpedo Launchers">2</Weapon>
+      <Weapon Name="Heavy Laser">4</Weapon>
+    </Weapons>
+    <Hyperspeed>6</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Landing Capacity"></Attribute>
+    </Attributes>
+    <Manufacture>
+      <Resources>50</Resources>
+      <ConstructionTime>2</ConstructionTime>
+    </Manufacture>
+  </Ship>
+
+
+  <Ship ID="2" Name="YV666" HeaderText="YV-666" Type="Capital"  FactionID="4">
+    <Description>Another design brought to life by Corellian engineers, the YV-666 is considerably larger than its smaller and cheaper counterparts.</Description>
+    <Weapons>
+      <Weapon Name="Proton-Torpedo Launchers">1</Weapon>
+      <Weapon Name="Heavy Laser">4</Weapon>
+    </Weapons>
+    <Hyperspeed>4</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Docking Bay"></Attribute>
+      <Attribute Name="Hanger Bay"></Attribute>
+      <Attribute Name="Landing Capacity"></Attribute>
+      <Attribute Name="Troops" Spaces="6"></Attribute>
+    </Attributes>
+  </Ship>
+
+  <Ship ID="3" Name="G1ATransport" HeaderText="G-1A Transport" Type="Starfighter"  FactionID="4">
+    <Description>Another design brought to life by Corellian engineers, the YV-666 is considerably larger than its smaller and cheaper counterparts.</Description>
+    <Weapons>
+      <Weapon Name="Heavy Laser">2</Weapon>
+    </Weapons>
+    <Hyperspeed>6</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Landing Capacity"></Attribute>
+    </Attributes>
+
+  </Ship>
+
+  <Ship ID="4" Name="NebulonBFrigate" HeaderText="Nebulon-B Frigate" Type="Capital"  FactionID="2">
+    <Description>The Nebulon-B frigate is very much the result of the Rebel Alliance. Due to attacks on Imperial convoys, the Empire needed to start protecting their shipments. TIE fighters were impractical here since they lacked hyperdrive capability, and Star Destroyers were simply too expensive to be wasted on such menial tasks. So for a while the Empire employed Corvettes for escort duty. However it was soon discovered that the maneuverable Rebel starfighters could easily outmatch the Corvettes and the Empire needed a new solution. The answer came in the form of the Nebulon-B frigate. It is well armed, good shields, and is capable of carry two squadrons of fighters into battle. While the Nebulon-B itself is slow and unwieldy as most vessels of this size, the fighters can handle anything that is too small or too fast for the frigate. One major advantage of the Nebulon-B design was the idea to put the hyperdrive motivators close to the primary power cells in main engineering on deck 9 in the aft section. Originally primary communications were to be handled from deck 17, but it was later decided that the bridge would be placed there, allowing the captain more direct access to every part of the ship. Since the Imperial Navy has been assigning Nebulon-B Frigates to escort duty, Rebel pilots no longer find attacking Imperial convoys a quick and simple job.</Description>
+    <Weapons>
+      <Weapon Name="Turbo Lasers">12</Weapon>
+      <Weapon Name="Heavy Laser">8</Weapon>
+    </Weapons>
+    <Hyperspeed>2</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Docking Bay"></Attribute>
+      <Attribute Name="Hanger Bay"></Attribute>
+      <Attribute Name="Troops" Spaces="8"></Attribute>
+    </Attributes>
+  </Ship>
+
+
+  <Ship ID="5" Name="TIElnStarfighter" HeaderText="TIE/ln Starfighter" Type="Starfighter"  FactionID="1">
+    <Description>TIE fighters are named after their unique propulsion system, the Twin Ion Engine. Ionized gasses are accelerated to a fraction of lightspeed in microparticle accelerators. The fast-moving particles are then emitted from the rear vents to move the fighter forward. Pilots can direct the ion particles in any desired direction making the craft highly manoeuvrable. Because of the relatively low mass of the ship, the twin ion engine design achieves great speed and maneuverability, making it faster than most commercially available spacecraft. This low mass however does come at a price. Even though the hull and solar panels are armored, the ship carries no deflector shields. This is compensated for by TIE pilots with evasion maneuvers and rapid course changes, but in reality they have to rely on shooting first and attacking in large numbers. It is also an accepted fact that amongst TIE pilots, the casualty rate is high. Easily recognized by their hexagonal solar power panels, the TIE-Ln model has become the standard support fighter for the Imperial Navy. It uses a separate power generator for its laser cannons. Next to the Imperial Stormtrooper, the TIE fighter is one of the symbols of the might and omnipresence of the Galactic Empire.</Description>
+    <Weapons>
+      <Weapon Name="Heavy Laser">2</Weapon>
+    </Weapons>
+    <Hyperspeed>0</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Landing Capacity"></Attribute>
+    </Attributes>
+
+  </Ship>
+
+  <Ship ID="6" Name="VictoryStarDestroyerI" HeaderText="Victory Star Destroyer I" Type="Capital"  FactionID="1">
+    <Description>The predecessor of the fearsome and ubiquitous Imperial-class, the Victory-class Star Destroyer saw the height of its production in the beginning of the clone wars, filling the need of the Old Republic for a capital ship capable of fulfilling multiple combat roles. The unique, dagger-shaped design of the Star Destroyer allows the Victory-class to concentrate nearly all of its weapons on its front firing arc. This ingenious design has since been copied in every subsequent design of the Star Destroyer by the Empire. While only little more than half the size of the Imperial-class, the Victory-class Star Destroyer mounts 120 turbolaser batteries and 20 proton torpedo launchers, giving it more offensive punch than its larger cousin. Both troop berths and hangar space were sacrificed in order to mount the additional weapons on the hull, making the Victory-class Star Destroyer a dedicated ship-to-ship combat vessel whereas the Imperial-class is able to serve many more functions in the Imperial Navy. After seizing galactic power after the fall of the Old Republic, the Galactic Empire kept the Victory-class in service and even continued to build the vessel, updating and refitting its secondary systems as necessary. In addition to the Empire, several other governments and even some private citizens are known to have acquired some of the fearsome vessels which made their way out of the Republic Navy during its transition to the Empire.</Description>
+    <Weapons>
+      <Weapon Name="Turbo Lasers">120</Weapon>
+      <Weapon Name="Proton-Torpedo Launchers">20</Weapon>
+    </Weapons>
+    <Hyperspeed>3</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Docking Bay"></Attribute>
+      <Attribute Name="Hanger Bay"></Attribute>
+      <Attribute Name="Troops" Spaces="5"></Attribute>
+    </Attributes>
+  </Ship>
+
+
+
+  <Ship ID="7" Name="AurekTacticalStrikefighter" HeaderText="Aurek Tactical Strikefighter" Type="Starfighter"  FactionID="3">
+    <Description></Description>
+    <Weapons>
+      <Weapon Name="Heavy Laser">2</Weapon>
+    </Weapons>
+    <Hyperspeed>4</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Landing Capacity"></Attribute>
+    </Attributes>
+  </Ship>
+
+  <Ship ID="8" Name="ActionVITransport" HeaderText="Action VI Transport" Type="Freighter"  FactionID="3">
+    <Description>
+      The Action VI is the sixth in a line of bulk freighters introduced by the Corellian Engineering Corporation. 125 meters long, and with a standard crew of 15, the Action VI Transport is rarely seen outside patrolled space without an escort due to its lack of even the most basic defenses. In compensation for this, the Action VI comes equipped with a Class 3 Hyperdrive and powerful engines for respectable hyperspace and sublight speeds.
+      The Galactic Empire has made extensive use of the Action VI for the simple reason that they are quite inexpensive (in comparison to other large freighters). Also used commonly near Alliance space due to it's ability to have more chance of outrunning Rebel cruisers compared to Star Galleons. Typically deployed in convoys with the likes of the Nebulon B and Skipray blastboats running escort, the Action VI has also seen action under the Rebel banner as a troop carrier, or more often a dropship for assault vehicles. This was rare however, as the Rebels preferred the cheaper, better armed Gallofree Medium Transports, over the cost of expanding and converting the cargo compartments of the Action VI.
+    </Description>
+    <Hyperspeed>5</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Hanger Bay"></Attribute>
+      <Attribute Name="Landing Capacity"></Attribute>
+      <Attribute Name="Troops" Spaces="2"></Attribute>
+    </Attributes>
+  </Ship>
+
+
+  <Ship ID="9" Name="DuskJewel" HeaderText="Dusk Jewel" Type="Freighter" OwnerName="AsmoBodan" FactionID="1">
+    <Description>
+      Firespray-class Interceptor.
+    </Description>
+    
+    <Weapons>
+      <Weapon Name="Ion Cannons">1</Weapon>
+      <Weapon Name="Tractor Beams">1</Weapon>
+      <Weapon Name="Proton-Torpedo Launchers">4</Weapon>
+      <Weapon Name="Heavy Laser">2</Weapon>
+    </Weapons>
+    <Hyperspeed>5</Hyperspeed>
+    <Attributes>
+      <Attribute Name="Hanger Bay"></Attribute>
+      <Attribute Name="Landing Capacity"></Attribute>
+    </Attributes>
+  </Ship>
+
+</Ships>

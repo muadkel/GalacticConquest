@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Galaxies>
+  <Galaxy ID="1" Name="Corellian" UniverseCoordinates="1,1"  MouseImageAreaCoordinates="X:229,Y:200;X:329,Y:302">
+    <Planet Name="Corellia" HeaderText="Corellia" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="15">
+      <Description>
+        Corellia, populated mostly by humans dubbed Corellians, is a planet with a rich history. Corellians are by their nature adventurers. Although local politicians even until today strongly favor an isolationist style of foreign policy, the innate sense of adventure provides a variety of interactions with outsiders, including the Aqualish-Corellian War in the recent past. Corellian style of lassaize-faire government throughout history gives the Corellian citizens a stereotype of being outlaws, though their acceptance to join the Galactic Empire proved this stereotype false.
+
+        Corellia is a beautiful planet with a variety of different landscapes. Landmass consists of two large continents, which are both populated. The capital city of Coronet is a metropolis that boasts some of the finest brewed ales and lagers, the five-star hotels and taverns attracting tourists from all over the galaxy. The bars in the dark alleys, however, are not recommended for the outsiders. Deceit and treachery describe only the surface of what takes place in some of the seedier sections. Other tourist attractions at Coronet include the Coronet City Museum of Art with the complete collection of Venthan Chassus works and the Coronet City Zoological and Botanical Gardens. Corellia University located in Coronet has one of the best Astronautical Engineering programs among all universities in the galaxy.
+
+        Corellia is also home to many luxury residences of important political figures or wealthy merchants. Some of these luxurious residences are open to tourist traffic, but most are not. Because of the concentration of the elite class on this planet, there are many hotels on Corellia that are among the galaxy's best. The Grand Corellia, a very high-class hotel found in the center of the sister cities of Coronet, Carrara, and Corona, occupies hundreds of acres of land. Three separate buildings combine to offer guests indoor sports, casino gaming, dance halls, and restaurants manned with some of the galaxy's most talented chefs. While outside of the buildings, there are also many activities available at its pools, hiking trails, or the wild game hunting grounds. Of course, a stay at the Grand Corellia carries a hefty price tag. A night of stay, plus the usual meals and activities, in the famous Imperial Suites of this hotel can cost as much as a typical workers yearly salary.
+
+        While the south pole region is formed above a frozen continent, the north pole has no actual land mass. Floating icebergs make seafaring in this region of the high seas especially dangerous in the winter months.
+
+        Corellia is perhaps best known for the product of astronautical engineers. Ships designed by engineers of Corellian descent are among some of the most versatile in the galaxy. Ships as the YT-1300, YT-2000, YT-510, and Corellian Corvette, among many others, are some of the highly sought after crafts by both governments and private businesses alike. The Corellian government views engineering education with heavy interest, providing tax-dollar subsidized mathematical programs for school children from a very early age to promote interest in this field. Major ship design and ship building companies from all over the galaxy visit the various universities on the planet of Corellia every year to recruit their top engineering graduates, attracting them with high salaries and generous benefits.
+      </Description>
+    </Planet>
+    <Planet Name="Commenor" HeaderText="Commenor" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="7"></Planet>
+    <Planet Name="Nubia" HeaderText="Nubia" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="8"></Planet>
+    <Planet Name="Corfai" HeaderText="Corfai" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="6"></Planet>
+    <Planet Name="Duro" HeaderText="Duro" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="3"></Planet>
+  </Galaxy>
+  <Galaxy ID="2" Name="Coruscant" UniverseCoordinates="1,2" MouseImageAreaCoordinates="X:383,Y:198;X:539,Y:353">
+    <Planet Name="Coruscant" HeaderText="Coruscant" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="20"></Planet>
+    <Planet Name="Corsin" HeaderText="Corsin" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="7"></Planet>
+    <Planet Name="YagaMinor" HeaderText="Yaga Minor" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="8"></Planet>
+    <Planet Name="Bortras" HeaderText="Bortras" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="3">
+      <Description>
+        A mild climate, with rather temperate temperatures, this breathable planet can be found in the Bortras system of the Sesswenna sector. It is located inside imperial space. Many Flora species live on this planet such as the Neoial Trees simmilar to the wroshyr trees found on Kashyyyk but only about a third in hight.
+      </Description>
+    </Planet>
+    <Planet Name="Neimoidia" HeaderText="Neimoidia" MouseImageAreaCoordinates="" DefaultPlanetGroundSpaces="6"></Planet>
+  </Galaxy>
+</Galaxies>

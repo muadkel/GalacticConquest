@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Troops>
+  <Troop ID="1" Name="ImperialGarrison" HeaderText="Imperial Garrison" FactionID="1">
+    <Description>These guys wear grey and kinda suck at shooting.</Description>
+    <Attack>2</Attack>
+    <Health>4</Health>
+    <Manufacture>
+      <Resources>5</Resources>
+      <ConstructionTime>1</ConstructionTime>
+    </Manufacture>
+  </Troop>
+  <Troop ID="2" Name="StormTroopers" HeaderText="StormTroopers" FactionID="1">
+    <Description>They wear white armor and work for the Empire.</Description>
+    <Attack>6</Attack>
+    <Health>6</Health>
+    <Manufacture>
+      <Resources>10</Resources>
+      <ConstructionTime>2</ConstructionTime>
+    </Manufacture>
+  </Troop>
+</Troops>

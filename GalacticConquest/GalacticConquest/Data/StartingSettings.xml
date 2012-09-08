@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<StartingGameSettings>
+
+  <StartingUnits FactionName="GalacticEmpire">
+
+    <Unit Type="Resources" StartingAmount="2000"></Unit>
+
+    <Unit Type="Planet" PlanetName="Coruscant"></Unit>
+
+
+    <Unit Type="Facility" UnitName="CommandCenter" PlanetName="Coruscant"></Unit>
+    <Unit Type="Facility" UnitName="ConstructionYard" PlanetName="Coruscant"></Unit>
+    <Unit Type="Facility" UnitName="Starport" PlanetName="Coruscant"></Unit>
+    <Unit Type="Facility" UnitName="Barracks" PlanetName="Coruscant"></Unit>
+    
+
+    <Unit Type="Ship" UnitName="TIElnStarfighter" PlanetName="Coruscant"></Unit>
+    <Unit Type="Ship" UnitName="VictoryStarDestroyerI" PlanetName="Coruscant"></Unit>
+
+
+    <Unit Type="Character" UnitName="AsmoBodan" PlanetName="Coruscant"></Unit>
+
+
+    <Unit Type="Troops" UnitName="StormTroopers" PlanetName="Coruscant"></Unit>
+    <Unit Type="Troops" UnitName="StormTroopers" PlanetName="Coruscant"></Unit>
+    <Unit Type="Troops" UnitName="StormTroopers" PlanetName="Coruscant"></Unit>
+
+    
+  </StartingUnits>
+
+
+  <StartingUnits FactionName="RebelAlliance">
+
+    <Unit Type="Resources" StartingAmount="1800"></Unit>
+
+    <Unit Type="Planet" PlanetName="Corfai"></Unit>
+
+    <Unit Type="Facility" UnitName="CommandCenter" PlanetName="Corfai"></Unit>
+    <Unit Type="Facility" UnitName="ConstructionYard" PlanetName="Corfai"></Unit>
+    <Unit Type="Facility" UnitName="Starport" PlanetName="Corfai"></Unit>
+    <Unit Type="Facility" UnitName="Barracks" PlanetName="Corfai"></Unit>
+
+    <Unit Type="Ship" UnitName="XWingT65" PlanetName="Corfai"></Unit>
+    <Unit Type="Ship" UnitName="NebulonBFrigate" PlanetName="Corfai"></Unit>
+
+
+    <Unit Type="Character" UnitName="RawthShacklefist" PlanetName="Corfai"></Unit>
+
+
+  </StartingUnits>
+  
+  
+</StartingGameSettings>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionTraits>
+  <Loyalty>
+    <Description>
+      This faction has the ability to manipulate a planets population through sheer loyality. 
+      Be kind to your subjects and they may reward you.
+    </Description>
+    
+  </Loyalty>
+  
+  <Occupation>
+    <Description>
+      This faction has the ability to occupy a planey with military force.
+      The more you tighter your grip...
+    </Description>
+    
+  </Occupation>
+
+
+  <Enslavers>
+    <Description>
+      This faction has the ability to manipulate a planets population by enslaving them. 
+      Slaves make a great work force but can easily be turned at the hint of freedom.
+    </Description>
+  </Enslavers>
+  <PlanetProspectors>
+    <Description>
+      This trait allows a faction to purchase an entire planet that is unclaimed to any faction.
+      The dissidents can overthrough the purchased government and align with another faction if their needs are not met.
+    </Description>
+  </PlanetProspectors>
+  </FactionTraits>

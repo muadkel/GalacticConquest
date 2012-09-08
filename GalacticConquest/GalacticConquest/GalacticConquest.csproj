@@ -1,0 +1,259 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <ProjectGuid>{D218EDC6-9946-42E3-8356-EBB62698F832}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GalacticConquest</RootNamespace>
+    <AssemblyName>GalacticConquest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v3.1</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaCrossPlatformGroupID>852e5ccb-24c4-42d4-891f-19dd4364c4c8</XnaCrossPlatformGroupID>
+    <ApplicationIcon>realistic-earth.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>0FC0C6C680BE28C12F13D57CCA5076FEC653E406</ManifestCertificateThumbprint>
+    <ManifestKeyFile>GalacticConquest_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=3.1.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\ControlWrapper.cs" />
+    <Compile Include="Controls\DataCardIconControl.cs" />
+    <Compile Include="Controls\FancyDropDownBoxControl.cs" />
+    <Compile Include="Controls\FancyImageControl.cs" />
+    <Compile Include="Controls\FancyListBox.cs" />
+    <Compile Include="Controls\FancyMenuControl.cs" />
+    <Compile Include="Controls\FancyRadioButtonsControl.cs" />
+    <Compile Include="Controls\GalacticMapControl.cs" />
+    <Compile Include="Controls\GameEngineControls\ConstructionMenuControl.cs" />
+    <Compile Include="Controls\GameEngineControls\GalacticMapControl.cs" />
+    <Compile Include="Controls\GameEngineControls\GameRightBarControl.cs" />
+    <Compile Include="Controls\GameEngineControls\GameTopBarControl.cs" />
+    <Compile Include="Controls\GameInformationMenu.cs" />
+    <Compile Include="Controls\IDrawable.cs" />
+    <Compile Include="Controls\PanelControl.cs" />
+    <Compile Include="Controls\PlanetCommandControl.cs" />
+    <Compile Include="Controls\PlanetOrbitControl.cs" />
+    <Compile Include="Controls\PlanetsInGalaxyMenu.cs" />
+    <Compile Include="Controls\ScrollPanel\ScrollPanelTextControl.cs" />
+    <Compile Include="Controls\StartMenuControl.cs" />
+    <Compile Include="Controls\TabPanel\TabPanel.cs" />
+    <Compile Include="Controls\TabPanel\TabPanelControl.cs" />
+    <Compile Include="Controls\Textbox\Sprite.cs" />
+    <Compile Include="Controls\Textbox\SpriteTextBox.cs" />
+    <Compile Include="Controls\Textbox\TextboxInput.cs" />
+    <Compile Include="Controls\Textbox\TextInput.cs" />
+    <Compile Include="DataCards\Character.cs" />
+    <Compile Include="DataCards\DataCard.cs" />
+    <Compile Include="DataCards\Facility.cs" />
+    <Compile Include="DataCards\Faction.cs" />
+    <Compile Include="DataCards\Galaxy.cs" />
+    <Compile Include="DataCards\GameUnit.cs" />
+    <Compile Include="DataCards\Planet.cs" />
+    <Compile Include="DataCards\Ship.cs" />
+    <Compile Include="DataCards\Troops.cs" />
+    <Compile Include="DrawObj\DrawHelper.cs" />
+    <Compile Include="DrawObj\Sprite.cs" />
+    <Compile Include="GameDrawClassComponents.cs" />
+    <Compile Include="GameEngine\Construction.cs" />
+    <Compile Include="GameEngine\GalacticComponents\TravelObj.cs" />
+    <Compile Include="GameEngine\Manufacturing.cs" />
+    <Compile Include="GameEngine\PlayerInvObjs\InvUnit.cs" />
+    <Compile Include="GameEngine\PlayerInvObjs\StarshipFleet.cs" />
+    <Compile Include="GameUpdateClassComponents.cs" />
+    <Compile Include="GameEngine\GalacticComponents\Owner.cs" />
+    <Compile Include="GameEngine\GalacticComponents\PlanetOrbit.cs" />
+    <Compile Include="GameEngine\GalacticComponents\PlanetPopularity.cs" />
+    <Compile Include="GameEngine\GalacticComponents\PlanetSpace.cs" />
+    <Compile Include="GameEngine\GalacticDayManager.cs" />
+    <Compile Include="GameEngine\GalacticComponents\ProcessedResource.cs" />
+    <Compile Include="GameEngine\GalacticGameEngine.cs" />
+    <Compile Include="GameEngine\GameUniverse.cs" />
+    <Compile Include="GameEngine\Player.cs" />
+    <Compile Include="GameEngine\PlayerInvObjs\InvFacility.cs" />
+    <Compile Include="GameEngine\ResourceManager.cs" />
+    <Compile Include="GameEngine\StartingGameUnits.cs" />
+    <Compile Include="GameEngine\StartMenuEngine.cs" />
+    <Compile Include="Model\Coordinates.cs" />
+    <Compile Include="Model\DataCardType.cs" />
+    <Compile Include="Model\DataUtilities.cs" />
+    <Compile Include="Controls\FancyButtonControl.cs" />
+    <Compile Include="Model\OrientationType.cs" />
+    <Compile Include="Model\ProfileDataCard.cs" />
+    <Compile Include="Model\ProfileUtilities.cs" />
+    <Compile Include="Model\StaticDataCards.cs" />
+    <Compile Include="Model\StaticFonts.cs" />
+    <Compile Include="Model\StaticTextureImages.cs" />
+    <Compile Include="Model\StaticValues.cs" />
+    <Compile Include="Model\Utilities.cs" />
+    <Compile Include="Model\XYStringToInt.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="SaveGame\SaveGameData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Characters.xml" />
+    <Content Include="Data\Facilities.xml" />
+    <Content Include="Data\Factions.xml" />
+    <Content Include="Data\FactionTraits.xml" />
+    <Content Include="Data\Galaxies.xml" />
+    <Content Include="Data\Profiles.xml" />
+    <Content Include="Data\Resources.xml" />
+    <Content Include="Data\Satellites.xml" />
+    <Content Include="Data\Ships.xml" />
+    <Content Include="Data\StartingSettings.xml" />
+    <Content Include="Data\Troops.xml" />
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <Content Include="Images\Buttons\30x30CommandButton.bmp" />
+    <Content Include="Images\Buttons\30x30InfoButton.bmp" />
+    <Content Include="Images\Facilities\Barracks.gif" />
+    <Content Include="Images\Facilities\CommandCenter.gif" />
+    <Content Include="Images\Facilities\Starport.gif" />
+    <Content Include="Images\GalacticMap.bmp" />
+    <Content Include="Images\MainScreen.jpg" />
+    <Content Include="Images\MessageTemplates\130x150_Button.png" />
+    <Content Include="Images\MessageTemplates\205x30_RadioButton_Checked.png" />
+    <Content Include="Images\MessageTemplates\205x30_RadioButton_Unchecked.png" />
+    <Content Include="Images\MessageTemplates\300x300_Window.png" />
+    <Content Include="Images\MessageTemplates\MessageBox_163x100.jpg" />
+    <Content Include="Images\Planets\Corsin.bmp" />
+    <Content Include="realistic-earth.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content\Content.contentproj">
+      <Project>6acef5f2-d1d0-4e69-b8b1-0872b9c73760</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.3.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\Content.contentproj" />
+    <None Include="GalacticConquest_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\bin\x86\Debug\" />
+    <Folder Include="Content\bin\x86\Release\" />
+    <Folder Include="Content\obj\x86\Debug\TempPE\" />
+    <Folder Include="Content\obj\x86\Release\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

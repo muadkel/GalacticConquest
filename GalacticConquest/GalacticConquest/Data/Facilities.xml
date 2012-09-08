@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Facilities>
+  <Facility ID="1" Name="CommandCenter" Type="Command" HeaderText="Command Center">
+    <Description>Your main building. Every planet you own should have one of these.</Description>
+    <Images>
+      <MainImage SRC="CommandCenter.gif" />
+    </Images>
+  </Facility>
+  <Facility ID="2" Name="Starport" Type="MFR[Ships]" HeaderText="Starport">
+    <Description>Builds ships</Description>
+    <Images>
+      <MainImage SRC="Starport.gif" />
+    </Images>
+    <Manufacture>
+      <Resources>500</Resources>
+      <ConstructionTime>10</ConstructionTime>
+    </Manufacture>
+  </Facility>
+  <Facility ID="3" Name="Barracks" Type="MFR[Troops]" HeaderText="Barracks">
+    <Description>Builds Troops</Description>
+    <Images>
+      <MainImage SRC="Barracks.gif" />
+    </Images>
+    <Manufacture>
+      <Resources>400</Resources>
+      <ConstructionTime>8</ConstructionTime>
+    </Manufacture>
+  </Facility>
+  <Facility ID="4" Name="ConstructionYard" Type="MFR[Facilities]" HeaderText="Construction Yard">
+    <Description>Builds Facilities</Description>
+    <Images>
+      <MainImage SRC="ConstructionYard.gif" />
+    </Images>
+    <Manufacture>
+      <Resources>100</Resources>
+      <ConstructionTime>4</ConstructionTime>
+    </Manufacture>
+  </Facility>
+  <Facility ID="4" Name="LandingPad" Type="HOLDS[Ships]" HeaderText="Landing Pad">
+    <Description>Builds Facilities</Description>
+    <Images>
+      <MainImage SRC="ConstructionYard.gif" />
+    </Images>
+    <Manufacture>
+      <Resources>200</Resources>
+      <ConstructionTime>6</ConstructionTime>
+    </Manufacture>
+  </Facility>
+
+
+</Facilities>

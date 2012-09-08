@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Satellites>
+  <Satellite ID="1" Name="Sysat T-20" Type="Recon"  FactionID="2">
+    <Description>The Sysat T-20 represents the Galaxy's standard in Reconnaissance Satellite systems. It provides a highly mobile, survivable surveillance and command and control (C2) platform. Each carries a 3 meter-diameter umbrella-like HandEye™ reflecting dish to collect carrier signals from almost anywhere in the Galaxy. Constellations of T-20 satellites are often used in 'disputed systems' to monitor and report on sovereign-space or treaty violations. This practice - commonly referred to as 'satellite seeding' - entails dispersing twenty five T-20 satellites in checker-board fashion across a system. Select governments are rumoured to be sponsoring R and D into a prototype version of the T-20 (code named the X-28) for pirate baiting operations. Leaked reports suggesting that the secretive Bantha Works Research Station have equipped these protoypes with False-Front™ projectors have neither been confirmed nor denied by public spokesmen. False-Front™ is suspected to allow military satellites to appear as freighters/capital ships on scanners of passing ships.</Description>
+    <Hull>10</Hull>
+    <Sensors>1</Sensors>
+  </Satellite>
+
+  <Satellite ID="2" Name="Sysat T-24" Type="Recon"  FactionID="2">
+    <Description>The Sysat T-24 satellite is a militarized version of the basic Sysat T-20 Reconnaissance Satellite. It is distinguished by the addition of a large, rotating rotodome containing the patented YODAR™ antenna as well as identification friend-or-foe (IFF) and data-link remote control (DENKER-C) antennas. The T-24 is renowned for it's ability to provide a comprehensive system-wide picture of a combat zone, including identifying friend and foe spacecraft, target acquisition, and communications with planetary base stations. The T-24's technical systems handle large quantities of information in real time and the factory-fitted armour plating to allow it to survive minor astronomical phenomenon (or keep transmitting long enough to report attacks on itself).</Description>
+    <Hull>20</Hull>
+    <Sensors>8</Sensors>
+  </Satellite>
+
+</Satellites>

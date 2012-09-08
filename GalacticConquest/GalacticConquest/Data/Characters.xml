@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Characters>
+  <Character ID="1" Name="LukeSkywalker" HeaderText="Luke Skywalker" Species="Human" FactionID="2">
+    <Description>Luke Skywalker grew up on Tattooine and learned the ways of the force.</Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+  </Character>
+
+  <Character ID="2" Name="MuadKelBask" HeaderText="Muad Kel Bask" Species="Corellian" FactionID="4">
+    <Description>
+      Grew up on Corellia with dreams of the Rebellion. His father was a merchant and his mother was the daughter of a farmer. Lived a simple life while picking up some of the stealthy habits of a rebel without yet joining and picking up some decent piloting skills while dating a frieghter pilot.
+      Lives the mercenary life now. Drifting in space mostly.
+    </Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+    
+  </Character>
+
+  <Character ID="3" Name="RengarZune" HeaderText="Rengar Zune" Species="Trandoshan" FactionID="3">
+    <Description>
+      Rengar is 145 pound Trandoshan with thin eye structure, broad shoulders, 5,6 in height.
+    </Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+  </Character>
+
+  <Character ID="4" Name="DarthVader" HeaderText="Darth Vader" Species="Human" FactionID="1">
+    <Description>
+      Darth Vader is the leader of the Empire.
+    </Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+  </Character>
+
+  <Character ID="5" Name="AsmoBodan" HeaderText="Asmo Bodan" Species="Devorian" FactionID="1">
+    <Description>
+      Asmo Bodan is the leader of Tapani Starship Cooperative. Born twenty-six years ago to a Devaronian father and Human mother, Asmo was often shunned while growing up. At the age of twenty-five, he vowed to do something no other Devaronian had done in thousands of years: He would not partake in the rite of manhood. Bitter at his race for the treatment he received as a youth, he left his homeworld and bought passage to Coruscant aboard a small trading vessel. During the long journey, Asmo solemnly reflected about his dire situation.
+
+      Eventually, he encountered a shady figure named Rorlix Metara who peddled deathsticks. With nowhere to go, Asmo accompanied Rorlix to Mordain and began hauling spice for Voragga the Hutt, the most powerful of the Hutt lords.
+
+      Under Rorlix's tutelage, Asmo proved adept in brokering deals and avoiding the ever-watchful authorities. Although he was happy with his success, Asmo dreamed of recruiting his own crew of smugglers and carving a name for himself in the annals of history. Then a turning point happened in the life of Asmo of the clan Spar'Bodan. He received word that profitable opportunities were being offered by Dorn Zeke, a renowned trader with ambitions of his own. As Dorn's employee, Asmo began hauling raw materials to distant corners of the galaxy to feed the powerhouse that would become the Aurodium Legion. He quickly rose through the ranks and became director of the Legion's factories in two sectors.
+
+      The Legion rewarded Asmo for his loyal service with a promotion to leader of Tapani Starship Cooperative, the premiere shipwright firm in the galaxy.
+    </Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+  </Character>
+
+  <Character ID="5" Name="RawthShacklefist" HeaderText="Rawth Shacklefist" Species="Chiss" FactionID="2">
+    <Description>
+      Rawth tends to enjoy the finer things in life. Expensive food, fancy dress, powerful weapons, and of course, fast ships. Born to a lower, working caste of Chiss, Rawth has always been tireless in improving his own status. He values class above all else, and is considered somewhat self-centered. Saving up enough money for public transportation off Csilla, and leaving with little more than the clothes on his back, Rawth set out to explore the galaxy. Soon after leaving his home planet in the Unknown Regions, the Chiss arrived on Coruscant. Not finding the Imperial-held city planet to his liking, but taking full advantage of databanks in the city, Rawth decided to join the Aurodium Legion, and has been putting his talent for inspiring people to work ever since. Now an experienced spacer, a veteran of more than a few scuffles, and an aspiring trader, Rawth is no longer the meek yet ambitious Chiss who left Csilla. He manages the Pakrik Phalanx in Shockball, pushing the team to new heights, and has received a reputation for being a bit unscrupulous, willing to do what is needed to receive his ends.
+    </Description>
+    <CharacterTraits>Leader</CharacterTraits>
+    <CharacterTraits>Diplomacy</CharacterTraits>
+    <CharacterTraits>Recruiting</CharacterTraits>
+  </Character>
+
+</Characters>
