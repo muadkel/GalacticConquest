@@ -4,7 +4,7 @@ The developer/player could modify the XML files and images to customize and crea
 
 The current version is written in C# with the 2008 XNA studio. I custom made the controls and I apologize for their wonkiness.
  
-As of the last update the game is in early prototype stages but a developer should be able to take this code and run it (Use Microsoft Visual C# Studio 2008 Express Edition).
+As of the last update the game is in early prototype stages but a developer should be able to take this code and run it (Use Microsoft Visual C# Studio 2008 Express Edition with XNA 3.1).
 While running the prototype game you can build facilities, ships, and troops. Space ships can also travel to other planets.
 
 Nothing is set in stone and I would love to see this continued by someone with more free time than me!
